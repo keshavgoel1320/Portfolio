@@ -1,0 +1,25 @@
+import Testimonials from "./sections/Testimonials";
+import Footer from "./sections/Footer";
+import Contact from "./sections/Contact";
+import TechStack from "./sections/TechStack";
+import Hero from "./sections/Hero";
+import Experience from "./sections/Experience";
+import ShowcaseSection from "./sections/ShowcaseSection";
+
+import Navbar from "./components/NavBar";
+
+const App = () => (
+  <>
+    <Navbar />
+    <Hero />
+    <ShowcaseSection />
+    <Experience />
+
+    <TechStack />
+    <Testimonials />
+    <Contact />
+    <Footer />
+  </>
+);
+
+export default App;
